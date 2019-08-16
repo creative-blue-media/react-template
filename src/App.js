@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './icon.png';
 import './App.css';
 import Card from './Card.js';
+import AppRouter from './AppRouter';
 
 function App() {
   return (
     <div className="App">
+      <AppRouter />
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <section className="container">

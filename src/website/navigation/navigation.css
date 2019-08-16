@@ -1,0 +1,23 @@
+.row {
+    
+}
+.nav {
+    position: absolute;
+    right: 0;
+    clear:both;
+}
+ul {
+    padding: 0px;
+}
+.nav ul {
+    list-style: none; 
+    font-size: 2rem;
+    display: block;
+    float: right;
+    
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}

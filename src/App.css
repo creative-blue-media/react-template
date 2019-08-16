@@ -19,8 +19,14 @@
   font-size: 3.5rem;
 }
 
-.App-header p {
-  
+.App-header .container {
+  position: absolute;
+  max-width: 114rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid red;
+
 }
 
 .App-link {
@@ -32,9 +38,7 @@
 }
 
 .container {
-  max-width: 114rem;
-  margin: auto;
-  border: 5px solid red;
+ 
 }
 
 .container p {

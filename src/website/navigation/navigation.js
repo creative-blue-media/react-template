@@ -1,9 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './navigation.css';
-function Index() {
-  return <h2>Home</h2>;
-}
+import Index from '../home/Home';
 
 function About() {
   return <h2>About</h2>;
@@ -52,12 +50,12 @@ function WebsiteRouter() {
           </ul>
         </nav>
 
-        {/* <Route path="/" exact component={Index} />
+        <Route path="/" exact component={Index} />
         <Route path="/about/" component={About} />
         <Route path="/services/" component={Services} />
         <Route path="/work/" component={Work} />
         <Route path="/insight/" component={Insight} />
-        <Route path="/contact/" component={Contact} /> */}
+        <Route path="/contact/" component={Contact} />
       </div>
     </Router>
   );

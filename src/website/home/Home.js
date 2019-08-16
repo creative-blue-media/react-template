@@ -1,11 +1,9 @@
 import React from 'react';
 import Card from '../../Card.js';
-import Navigation from '../navigation/navigation';
 
-function App() {
+function Home() {
   return (
     <div className="App">
-      <Navigation />
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <section className="container">
@@ -31,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

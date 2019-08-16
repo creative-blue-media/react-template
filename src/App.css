@@ -9,14 +9,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(to bottom, rgba(0,0,0, .5), rgba(0,0,0, .5)), url('./assets/img/cbmbackground.svg') no-repeat; 
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.App-header p {
+  
 }
 
 .App-link {
@@ -25,6 +33,16 @@
 
 .b {
   display: flex;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  border: 5px solid red;
+}
+
+.container p {
+  border: 5px solid black;
 }
 
 @keyframes App-logo-spin {

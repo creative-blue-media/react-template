@@ -7,20 +7,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <section className="container">
-          <p>
-            Social Media Marketing
-          </p>
-        </section>
-        {/* <a
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Lets CBM this CMS!
+        </p>
+        <a
           className="App-link"
           href="https://www.creativeblue.media"
           target="_blank"
           rel="noopener noreferrer"
         >
           CBM WEBSITE
-        </a> */}
+        </a>
       </header>
       <section class="row"> 
         <Card name="Website"/>

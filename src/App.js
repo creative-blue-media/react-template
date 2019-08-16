@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './icon.png';
 import './App.css';
+import Card from './Card.js';
 
 function App() {
   return (
@@ -8,17 +9,22 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lets CBM this CMS!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.creativeblue.media"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          CBM WEBSITE
         </a>
       </header>
+      <section class="row"> 
+        <Card name="Website"/>
+        <Card name="Graphic Design"/>
+        <Card name="Social Networking"/>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.Card {
+    padding: 20px;
+    background-color: "#ff0000";
+    text-align: justify;
+    display: inline-block;
+    border: 1px solid black;
+    min-height: 30vh;
+}
+.Card-header {
+    font-weight: bold;
+    font-size: 1.3em;
+    flex-wrap: nowrap;
+
+}
+
+.Card-body {
+    display: block;
+    color: purple;
+}
+
+p {
+    display: flexbox;
+}
+
+.b {
+    border: 10px solid purple;
+}

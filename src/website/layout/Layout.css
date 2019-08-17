@@ -17,11 +17,11 @@
 }
 
 .row .col-1-of-2 {
-  width: calc((100% - 10rem) / 2); 
+  width: calc((100% - 20rem) / 2); 
 }
 
 .row .col-1-of-2:not(:last-child) {
-  margin-right: 10rem;
+  margin-right: 20rem;
 }
 
 .row .col-1-of-3 {

@@ -21,7 +21,7 @@
   }
 
   .Home-header p {
-      font-size: 6.5rem;
+      font-size: 6rem;
   }
   
   .Home-link {
@@ -63,6 +63,10 @@
   }
 
   .info {
-      background: linear-gradient(to bottom, rgba(255, 255, 255, .3), rgba(255, 255, 255, .3));
+      background: linear-gradient(to bottom, #ABDFF4, rgba(255, 255, 255, .6));
+  }
+
+  .info  .row [class^=col-]{
+      margin-top: -50px;  
   }
   

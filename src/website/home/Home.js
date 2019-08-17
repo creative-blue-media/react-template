@@ -40,6 +40,20 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="container-fluid creative-agency">
+        <h2>Creative Agency</h2>
+        <div className="row">
+          <div className="col-1-of-2">
+            <h5>Unleash the inner artist</h5>
+            <p>
+              Your business growth will not be work when partnered with Creative Blue Media. Building your business will be
+              an art form. Truly unique. We build solutions that bring visions to life. We inspire dreamers to become
+              doers and develop products that create meaningful connections with others. 
+              Our goal is to elevate your business, to establish powerful relationships, and inspire visionaries to be more creative. 
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -10,6 +10,7 @@
   
   .Home-header {
     height: 100vh;
+    text-transform: uppercase;
   }
   
   .Home-header .container-fluid {
@@ -66,7 +67,25 @@
       background: linear-gradient(to bottom, #ABDFF4, rgba(255, 255, 255, .6));
   }
 
-  .info  .row [class^=col-]{
+  .info .row [class^=col-]{
       margin-top: -50px;  
   }
+  
+  .creative-agency {
+      background-color: #FBFBFD;
+      color: #000;
+  }
+  .creative-agency h2 {
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  .creative-agency h5 {
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  .creative-agency p {
+      font-size: 2rem;
+  }
+
   

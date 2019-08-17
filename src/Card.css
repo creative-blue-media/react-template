@@ -1,25 +1,21 @@
 .Card {
-    padding: 20px;
+    padding: 17px;
     background-color: "#ff0000";
-    text-align: justify;
     display: inline-block;
-    border: 1px solid black;
     min-height: 30vh;
+    color: black;
 }
 .Card-header {
     font-weight: bold;
-    font-size: 1.3em;
-    flex-wrap: nowrap;
-
+    font-size: 2.5rem;
 }
 
 .Card-body {
-    display: block;
-    color: purple;
+    font-size: 2rem;
 }
 
-p {
-    display: flexbox;
+.Card-footer {
+    font-size: 1.8rem;
 }
 
 .b {

@@ -1,5 +1,54 @@
+
 .row {
-    max-width: 114em;
-    position: relative;
+  max-width: 114rem; 
+  position: relative;
+  margin: auto; 
+  padding: 15px;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 10rem; 
+}
+
+.row::after {
+  content: ""; 
+  display: table; 
+  clear: both;
+}
+
+.row .col-1-of-2 {
+  width: calc((100% - 10rem) / 2); 
+}
+
+.row .col-1-of-2:not(:last-child) {
+  margin-right: 10rem;
+}
+
+.row .col-1-of-3 {
+  display: inline-block;
+  width: calc((100% - 20rem) / 3); 
+  background-color: #fff;
+}
+.row .col-1-of-3:not(:last-child) {
+  margin-right: 10rem;
+}
+.row .col-1-of-4 {
+  width: calc((100% - 20rem) / 4); 
+  background-color: #777;
+}
+   
+.btn-group {
+
+}
+
+.btn:not(:last-child) {
+  margin-right: 50px;
+}
+.container {
+    max-width: 80vw;
     margin: auto;
-  }
+}  
+ 
+.container-fluid {
+    width: 100%;
+}

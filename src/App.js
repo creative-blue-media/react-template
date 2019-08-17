@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './icon.png';
 import './App.css';
 import Card from './Card.js';
 import Navigation from './website/navigation/navigation';

@@ -12,7 +12,7 @@ function Card(props) {
       <section className="Card-body">
           <p>Let's put some information here.</p>
       </section>
-      <footer>
+      <footer className="Card-footer">
           <p>We can close the card with this.</p>
       </footer>
     </div>

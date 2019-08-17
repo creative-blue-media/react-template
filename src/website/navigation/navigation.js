@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './navigation.css';
 import Index from '../home/Home';
 
+
 function About() {
   return <h2>About</h2>;
 }
@@ -26,30 +27,32 @@ function Contact() {
 function WebsiteRouter() {
   return (
     <Router>
-      <div class="row">
-        <nav className="nav">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about/">About</Link>
-            </li>
-            <li>
-              <Link to="/services/">Services</Link>
-            </li>
-            <li>
-              <Link to="/work/">Work</Link>
-            </li>
-            <li>
-              <Link to="/insight/">Insight</Link>
-            </li>
-            <li>
-              <Link to="/contact/">Conact</Link>
-            </li>
-          </ul>
-        </nav>
-
+      <div className="container-fluid bg">
+        <div className="row">
+          <nav className="nav">
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about/">About</Link>
+              </li>
+              <li>
+                <Link to="/services/">Services</Link>
+              </li>
+              <li>
+                <Link to="/work/">Work</Link>
+              </li>
+              <li>
+                <Link to="/insight/">Insight</Link>
+              </li>
+              <li>
+                <Link to="/contact/">Conact</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+  
         <Route path="/" exact component={Index} />
         <Route path="/about/" component={About} />
         <Route path="/services/" component={Services} />

@@ -1,9 +1,18 @@
+.bg {
+    background: linear-gradient(to bottom, rgba(0,0,0, .5), rgba(0,0,0, .5)), url('../../assets/img/cbmbackground.svg') no-repeat; 
+    background-size: cover;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
 .row {
-    
+    clear: both;
 }
 .nav {
     right: 0;
-    clear:both;
 }
 ul {
     padding: 0px;
@@ -13,10 +22,19 @@ ul {
     font-size: 2rem;
     display: block;
     float: right;
-    
 }
 
 .nav ul li {
     display: inline-block;
     padding: 0px 20px;
+}
+
+.nav > ul > li > * {
+    color: white;
+    text-decoration: none;
+    
+}
+
+h2 {
+    margin: 0px;
 }

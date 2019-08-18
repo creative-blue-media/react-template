@@ -50,7 +50,7 @@ h2 {
     border-radius: 50%; 
     position: fixed; 
     top: 6rem; 
-    right: 6rem; 
+    right: 25%; 
     z-index: 2000;
     text-align: center; 
     box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
@@ -63,7 +63,7 @@ h2 {
     border-radius: 50%; 
     position: fixed; 
     top: 6.5rem; 
-    right: 6.5rem; 
+    right: 25.3%; 
     background-image: radial-gradient(#0F2D39, #00141D);
     z-index: 1000;
     opacity: .5;

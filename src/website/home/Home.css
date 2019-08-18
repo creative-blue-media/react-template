@@ -78,6 +78,8 @@
   .creative-agency h2 {
       text-align: center;
       text-transform: uppercase;
+      font-weight: bold;
+      padding-top: 60px;
   }
 
   .creative-agency h5 {

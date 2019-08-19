@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './navigation.css';
 import Index from '../home/Home';
+import logo from '../../assets/img/CreativeBlueMedia-WhiteLogo.png';
 
 
 function About() {
@@ -29,20 +30,23 @@ function WebsiteRouter() {
     <Router>
 
       <div className="container-fluid bg navigation">
-        <input type="checkbox" className="navigation__checkbox" id="navi-toggle"/>
-        <label for="navi-toggle" className="navigation__button">
-          <span className="navigation__icon"></span>
-        </label>
-        <div className="navigation__background">&nbsp;</div>
-        <nav className="navigation__nav">
-          <ul className="navigation__list">
-            <li className="navigation__item"><a href="#" className="navigation__link">About</a></li>
-            <li className="navigation__item"><a href="#" className="navigation__link">Services</a></li>
-            <li className="navigation__item"><a href="#" className="navigation__link">Work</a></li>
-            <li className="navigation__item"><a href="#" className="navigation__link">Insight</a></li>
-            <li className="navigation__item"><a href="#" className="navigation__link">Contact</a></li>
-          </ul>
-        </nav>
+        <div className="row">
+          <div className="nagivation__logo"><img src={logo}/></div>
+          <input type="checkbox" className="navigation__checkbox" id="navi-toggle"/>
+          <label for="navi-toggle" className="navigation__button">
+            <span className="navigation__icon"></span>
+          </label>
+          <div className="navigation__background">&nbsp;</div>
+          <nav className="navigation__nav">
+            <ul className="navigation__list">
+              <li className="navigation__item"><a href="#" className="navigation__link">About</a></li>
+              <li className="navigation__item"><a href="#" className="navigation__link">Services</a></li>
+              <li className="navigation__item"><a href="#" className="navigation__link">Work</a></li>
+              <li className="navigation__item"><a href="#" className="navigation__link">Insight</a></li>
+              <li className="navigation__item"><a href="#" className="navigation__link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
         {/* <div className="row">
           <nav className="nav">
             <ul>

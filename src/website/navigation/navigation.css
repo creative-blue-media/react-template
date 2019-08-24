@@ -167,4 +167,10 @@ h2 {
     left: 0;
 }
 
+.navigation__button:hover .navigation__icon::before {
+    top: -1rem; 
+}
+.navigation__button:hover .navigation__icon::after {
+    top: 1rem;
+}
 
